@@ -1,0 +1,174 @@
+
+<html>
+<title>Amir Rehail test</title>
+<head>
+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0, user-scalable=no\">
+  <style>
+        body{
+          
+            background-color: #7689DE;
+            display:flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .container {
+        background-color: #4b64d1;
+        width:max-contents;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        height:max-content;
+        margin-top: 50px;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #4b64d1;
+        border-radius: 35px;
+        
+    } 
+    .layoutV {
+      width:100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-top: 0%; 
+      margin-bottom: 20px;
+    
+    }
+    .layoutHleft {
+      display: flex;
+      justify-content: center;
+      align-self: flex-start;
+      align-items: center;
+      flex-direction:row;
+      padding-top: 0%; }
+      .layoutH {
+      display: flex;
+      justify-content: center;
+      align-self: center;
+      align-items: center;
+      flex-direction:row;
+      padding-top: 0%; }
+      .button {
+      display: inline-block;
+      padding: 10px 10px;
+      font-size: 24px;
+      cursor: pointer;
+      text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #7689DE;
+      background-color: #A9DCE3;
+      border: none;
+      border-radius: 15px;
+      margin-right: 20px;
+
+    }
+
+      .button:hover {background-color: #90d5df}
+
+      .button:active {
+        background-color: #A9DCE3;
+        transform: translateY(1px);
+      }
+    .Wlcm { 
+      margin: 0; 
+    
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 40px;
+      position:relative;
+      padding: 10px;
+      
+      text-align: center;
+      color: #A9DCE3;
+      width: max-content;}
+    h2{
+      margin: 0;
+      margin-left: 10px;  
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 25px;
+      position:relative;
+      align-self: flex-start;
+      padding: 10px;
+      text-align: center;
+      color: #A9DCE3;
+      width: max-content;
+    }
+    h3{
+      margin: 0;
+      margin-left: 50px;  
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 25px;
+      position:relative;
+      align-self: flex-start;
+      padding: 10px;
+      text-align: center;
+      color: #A9DCE3;
+      width: max-content;
+    }
+    .text{
+      margin: 0;
+      margin-top: 10;
+      margin-left: 70;  
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 25px;
+      position:relative;
+      align-self: flex-start;
+
+      text-align: center;
+      color: #A9DCE3;
+      width: max-content;
+    }
+    .value{
+      margin: 0;
+      margin-top: 15;
+      margin-left: 20;  
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 20px;
+      position:relative;
+      align-self: flex-start;
+      text-align: center;
+      color: #E6E6E6;
+      width: max-content;
+    }
+  </style>
+  </head>
+<body>
+  <div class="container">
+    <div class = "layoutV" >
+        <h1 class="Wlcm" >WELCOME!</h1>
+        <h2>DC SHUNT MOTOR SE6226-5A CONTROL PANNEL</h2>
+        <h3>WIFI OPTIONS :</h2>
+        <div class="layoutV">
+        <div class="layoutHleft">
+        <a class = "text" >Wifi name :</a>
+        <a class = "value" >SE2662-5A</a>
+        </div>
+        <div class="layoutHleft">
+          <a class = "text" >Server State :</a>
+          <a class = "value" >SERVER IS ON</a>
+          </div>
+        </div>
+        <h3>MOTOR STATE :</h3>
+        <div class="layoutV">
+          <div class="layoutHleft">
+          <a class = "text" >TEMPURATURE :</a>
+          <a class = "value" >50°C</a>
+          </div>
+          <div class="layoutHleft">
+            <a class = "text" >VIBRATION :</a>
+            <a class = "value" >1550 Hz</a>
+            </div>
+          </div>
+        <div class="layoutH">
+        <button class = "button " >Restart the device</a>
+        <button class="button ">Turn off motor</a>
+        
+        </div>
+    </div>
+  </div>
+</body>
+
+</html>
